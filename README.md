@@ -1,2 +1,1 @@
 # DesignPatternsExamples
-dsd
