@@ -19,5 +19,15 @@ namespace StrategyDesignPattern.Birds
         }
 
         public abstract void Display();
+
+        public void SetSoundBehavior(ISoundBehavior soundBehavior)
+        {
+            this.soundBehavior = soundBehavior;
+        }
+
+        public void SetFlyBehavior(IFlyBehavior flyBehavior)
+        {
+            this.flyBehavior = flyBehavior;
+        }
     }
 }

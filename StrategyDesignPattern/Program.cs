@@ -1,4 +1,6 @@
 ﻿using StrategyDesignPattern.Birds;
+using StrategyDesignPattern.Fly;
+using StrategyDesignPattern.Sound;
 using System;
 
 namespace StrategyDesignPattern
@@ -18,6 +20,11 @@ namespace StrategyDesignPattern
             Bird bird3 = new Canary();
             bird3.PerformFly();
             bird3.PerformSound();
+            bird3.SetFlyBehavior(new FlyNoWay());
+            bird3.SetSoundBehavior(new Mute());
+            bird3.PerformFly();
+            bird3.PerformSound();
+
 
             Bird bird4 = new Penguin();
             bird4.PerformFly();
