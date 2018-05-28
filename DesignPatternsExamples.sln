@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyDesignPattern", "StrategyDesignPattern\StrategyDesignPattern.csproj", "{6CF8E420-B432-4144-BEF6-D2E44D6B06D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDesginPattern", "ObserverDesginPattern\ObserverDesginPattern.csproj", "{742B9384-183E-4AB2-B3D8-A6C3891D987B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDesginPattern", "ObserverDesginPattern\ObserverDesginPattern.csproj", "{742B9384-183E-4AB2-B3D8-A6C3891D987B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDesginPatternWithEvents", "ObserverDesginPatternWithEvents\ObserverDesginPatternWithEvents.csproj", "{A8A035DE-A239-4F66-8564-152597625373}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{742B9384-183E-4AB2-B3D8-A6C3891D987B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{742B9384-183E-4AB2-B3D8-A6C3891D987B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{742B9384-183E-4AB2-B3D8-A6C3891D987B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A035DE-A239-4F66-8564-152597625373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A035DE-A239-4F66-8564-152597625373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A035DE-A239-4F66-8564-152597625373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A035DE-A239-4F66-8564-152597625373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
